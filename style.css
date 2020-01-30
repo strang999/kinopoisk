@@ -1,0 +1,131 @@
+img {
+  max-width: 100%;
+}
+
+.img_poster {
+  height: 360px;
+}
+.item {
+  margin: 15px 0;
+  text-align: center;
+  font-family: "Slabo 27px", serif;
+}
+h5 {
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  color: navy;
+}
+.spinner {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border: 10px dashed;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-top-color: #aaa;
+  border-right-color: #555;
+  border-bottom-color: #000;
+  animation: spin 500ms infinite linear;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  font-family: "Mali", cursive;
+  text-decoration-color: darkgreen;
+  text-shadow: 3px;
+}
+
+.header-font {
+  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #252424;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-linkedin {
+  color: #0077b5;
+}
+.fa-twitter {
+  color: #4099ff;
+}
+.fa-google {
+  color: #d34836;
+}
+
+.bg-circle {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  padding: 14px 4px;
+  color: #ececec;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.bg-circle-outline {
+  width: 50px;
+  height: 50px;
+  color: smoke;
+  padding: 8px 2px;
+  border: 2px solid;
+  border-color: smoke;
+  border-radius: 50%;
+}
+
+.bg-circle a,
+a:hover,
+.media a:focus {
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
+}
+.bg-circle-outline a,
+a:hover,
+.media a:focus {
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
+}
+.footer {
+  background: #edeff1;
+  height: auto;
+  padding-bottom: 30px;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #dddddd;
+}
+.footer p {
+  margin: 0;
+}
+.footer img {
+  max-width: 100%;
+}
+.footer h3 {
+  border-bottom: 1px solid #bac1c8;
+  color: #54697e;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  padding: 40px 0 10px;
+  text-transform: uppercase;
+}
+.footer ul {
+  font-size: 13px;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 15px;
+  color: #7f8c8d;
+}
+.footer ul li a {
+  padding: 0 0 5px 0;
+  display: block;
+}
+.footer a {
+  color: #78828d;
+}
